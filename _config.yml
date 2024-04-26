@@ -24,6 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+theme: jekyll-theme-yat
 title: Ham Fun, 火腿房
 email: ji@bitspot.io
 author: ayouwei
