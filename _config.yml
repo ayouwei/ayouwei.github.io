@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 火腿房
-email: ji@bitspot.io
+title: '火腿房'
+email: 'ji@bitspot.io'
 description: >- # this means to ignore newlines until "baseurl:"
   A hammer's Blog
 baseurl: "" # the subpath of your site, e.g. /blog
