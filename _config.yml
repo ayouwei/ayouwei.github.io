@@ -1,0 +1,91 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: "火腿坊  |  HamFUN"
+email: ji@bitspot.io
+description: >- # this means to ignore newlines until "baseurl:"
+  A Hammer's Blog
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://hamfun.top" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: ayouwei
+#github_username:  jekyll
+
+copyright: "BI1MMP (cleft) {currentYear}"
+
+# Build settings
+#theme: minima
+theme: jekyll-theme-yat
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-spaceship
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+night_mode: "auto"
+
+# Page default value
+defaults:
+  home:
+    heading: "Keep Thinking, Enjoy Life"
+    subheading: "BI1MMP's Blog"
+    banner: "https://res-3.cloudinary.com/the-university-of-melbourne/image/upload/s--iY6SFkM4--/c_fill,f_auto,h_1200,q_75,w_1800/v1/pursuit-uploads/11f/3ba/c90/11f3bac9014d94bf061d5401f4c08833fe6d9047d766a63b93b4e5d0e08a.jpg"
+
+# Pagination setting
+paginate: 5
+
+# Build settings
+# highlighter: none
+markdown: kramdown
+kramdown:
+  input: GFM
+
+header_pages:
+  - about.markdown
+
+lang: "zh-CN"
+
+# Translate languges
+# langs refer to https://cloud.google.com/translate/docs/languages
+translate_langs:
+  - lang: en
+    img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
+    text: English
+  - lang: zh-CN
+    img: https://cdn.countryflags.com/thumbs/china/flag-400.png
+    text: Chinese(Simple)
