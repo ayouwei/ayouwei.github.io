@@ -1,8 +1,5 @@
 # Permalinks
 #
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:          /blog/:categories/:year/:month/:day/:title.html
-
 # Setup
 remote_theme:	"jeffreytse/jekyll-theme-yat"
 title:                HamFun - [火腿房]
@@ -12,14 +9,5 @@ url:                 https://hamfun.top
 baseurl:             ''
 paginate:            5
 
-# About/contact
-author:
-  name:              BI1MMP
-  url:               https://twitter.com/ayouwei
-  email:             ji@bitspot.io
-
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
-
-# Custom vars
-version:             0.0.1
