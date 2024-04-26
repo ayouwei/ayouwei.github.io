@@ -1,13 +1,10 @@
-# Permalinks
-#
-# Setup
 theme:		jekyll-theme-yat
-title:                HamFun - [火腿房]
-tagline:             'Keep Thinking, Enjoy Life'
-description:         'a hammer's Blog'
-url:                 https://hamfun.top
-baseurl:             ''
-paginate:            5
-
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+#title:                HamFun - [火腿房]
+#tagline:             'Keep Thinking, Enjoy Life'
+#description:         'a hammer's Blog'
+#url:                 https://hamfun.top
+#baseurl:             ''
+#paginate:            5
+#
+#plugins:
+#- jekyll-remote-theme # add this line to the plugins list if you already have one
