@@ -4,7 +4,7 @@
 permalink:          /blog/:categories/:year/:month/:day/:title.html
 
 # Setup
-theme:		jekyll-theme-minimal
+remote_theme:	pages-themes/minimal@v0.2.0
 title:                HamFun - [火腿房]
 tagline:             'Keep Thinking, Enjoy Life'
 description:         'a hammer's Blog'
@@ -18,6 +18,9 @@ author:
   name:              BI1MMP
   url:               https://twitter.com/ayouwei
   email:             ji@bitspot.io
+
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Custom vars
 version:             0.0.1
