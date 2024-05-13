@@ -202,13 +202,6 @@ GEM
     jekyll-theme-time-machine (0.2.0)
       jekyll (> 3.5, < 5.0)
       jekyll-seo-tag (~> 2.0)
-    jekyll-theme-yat (1.10.0)
-      jekyll (> 3.5, < 5.0)
-      jekyll-feed (~> 0.9)
-      jekyll-paginate (~> 1.1)
-      jekyll-seo-tag (~> 2.1)
-      jekyll-sitemap (~> 1.3)
-      jekyll-spaceship (~> 0.2)
     jekyll-titles-from-headings (0.5.3)
       jekyll (>= 3.3, < 5.0)
     jekyll-watch (2.2.1)
@@ -279,8 +272,9 @@ DEPENDENCIES
   github-pages
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)
+  jekyll-seo-tag
   jekyll-spaceship
-  jekyll-theme-yat
+  jemoji (~> 0.13.0)
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1.1)
