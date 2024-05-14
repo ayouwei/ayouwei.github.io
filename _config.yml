@@ -57,6 +57,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
 night_mode: "auto"
 
 # Page default value
