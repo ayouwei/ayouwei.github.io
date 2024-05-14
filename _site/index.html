@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>火腿坊 HamFUN | a Hammer’s Blog</title>
+<title>Home | 火腿坊 HamFUN</title>
 <meta name="generator" content="Jekyll v3.9.5">
-<meta property="og:title" content="火腿坊 HamFUN">
+<meta property="og:title" content="Home">
 <meta property="og:locale" content="zh_CN">
 <meta name="description" content="a Hammer’s Blog">
 <meta property="og:description" content="a Hammer’s Blog">
@@ -18,9 +18,9 @@
 <meta property="og:site_name" content="火腿坊 HamFUN">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
-<meta property="twitter:title" content="火腿坊 HamFUN">
+<meta property="twitter:title" content="Home">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"a Hammer’s Blog","headline":"火腿坊 HamFUN","name":"火腿坊 HamFUN","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"a Hammer’s Blog","headline":"Home","name":"火腿坊 HamFUN","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="icon" href="">
   <link rel="canonical" href="http://localhost:4000">
@@ -338,129 +338,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
             </span>
           </label>
 
-          <div class="trigger">
-<a class="page-link" href="/about/">ABOUT</a>
-
-
-
-
-
-
-
-
-
-<div class="page-link" style="display: inline;">
-
-
-
-<div id="google_translate_element" style="display: none;">
-</div>
-
-<div class="ct-language">
-  <ul class="list-unstyled ct-language-dropdown">
-    
-      <li>
-        <a href="#" class="lang-select" data-lang="en">
-          
-          <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" title="English">
-          
-        </a>
-      </li>
-    
-      <li>
-        <a href="#" class="lang-select" data-lang="zh-CN">
-          
-          <img src="https://cdn.countryflags.com/thumbs/china/flag-400.png" title="Chinese(Simple)">
-          
-        </a>
-      </li>
-    
-  </ul>
-</div>
-
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'zh-CN',
-    autoDisplay: false,
-    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
-  }, 'google_translate_element');
-
-  // Links to cross-origin destinations are unsafe
-  var gll = document.getElementsByClassName('goog-logo-link')[0];
-  if (gll) {
-    gll.setAttribute('rel', 'noopener');
-  }
-
-  function restoreLang() {
-    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
-    if (!iframe) return;
-
-    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
-    var restore_el = innerDoc.getElementsByTagName("button");
-
-    for (var i = 0; i < restore_el.length; i++) {
-      if (restore_el[i].id.indexOf("restore") >= 0) {
-        restore_el[i].click();
-        var close_el = innerDoc.getElementsByClassName("goog-close-link");
-        close_el[0].click();
-        return;
-      }
-    }
-  }
-
-  function triggerHtmlEvent(element, eventName) {
-    var event;
-    if (document.createEvent) {
-      event = document.createEvent('HTMLEvents');
-      event.initEvent(eventName, true, true);
-      element.dispatchEvent(event);
-    } else {
-      event = document.createEventObject();
-      event.eventType = eventName;
-      element.fireEvent('on' + event.eventType, event);
-    }
-  }
-
-  var googleCombo = document.querySelector("select.goog-te-combo");
-  var langSelect = document.querySelector('.ct-language');
-  langSelect.addEventListener('click', function(event) {
-    if (!event.target) {
-      return;
-    }
-
-    var selected = document.querySelector('.ct-language .ct-language-selected');
-    if (selected) {
-      selected.classList.remove('ct-language-selected');
-    }
-
-    var target = event.target;
-    while (target && target !== langSelect ) {
-      if (target.matches('.lang-select')) {
-        break;
-      }
-      target = target.parentElement;
-    }
-
-    if (target && target.matches('.lang-select')) {
-      var lang = target.getAttribute('data-lang');
-      if (googleCombo.value == lang) {
-        restoreLang();
-      } else {
-        target.parentElement.classList.add('ct-language-selected');
-        googleCombo.value = lang;
-        triggerHtmlEvent(googleCombo, 'change');
-      }
-    }
-
-    event.preventDefault();
-  });
-}
-</script>
-
-<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
-</div>
-</div>
+          <div class="trigger"><a class="page-link" href="/statistics.html">我的通联</a></div>
         </nav>
 </div>
   </div>
@@ -698,113 +576,6 @@ function googleTranslateElementInit() {
     }
   });
 </script>
-<div class="theme-toggle">
-  <input type="checkbox" id="theme-switch">
-  <label for="theme-switch">
-    <div class="toggle"></div>
-    <div class="names">
-      <p class="light">Light</p>
-      <p class="dark">Dark</p>
-    </div>
-  </label>
-</div>
-
-
-
-
-<script>
-  (function() {
-    var sw = document.getElementById('theme-switch');
-    var html = document.getElementsByTagName('html')[0];
-    var nightModeOption = ('auto' || 'auto').toLowerCase();
-    var storage = nightModeOption === 'manual'
-        ? localStorage
-        : sessionStorage;
-    var themeData = loadThemeData();
-
-    function saveThemeData(data) {
-      storage.setItem('theme', JSON.stringify(data));
-    }
-
-    function loadThemeData() {
-      var data = storage.getItem('theme');
-      try {
-        data = JSON.parse(data ? data : '');
-      } catch(e) {
-        data = { nightShift: undefined, autoToggleAt: 0 };
-        saveThemeData(data);
-      }
-      return data;
-    }
-
-    function handleThemeToggle(nightShift) {
-      themeData.nightShift = nightShift;
-      saveThemeData(themeData);
-      html.dataset.theme = nightShift ? 'dark' : 'light';
-      setTimeout(function() {
-        sw.checked = nightShift ? true : false;
-      }, 50);
-    }
-
-    function autoThemeToggle() {
-      // Next time point of theme toggle
-      var now = new Date();
-      var toggleAt = new Date();
-      var hours = now.getHours();
-      var nightShift = hours >= 19 || hours <=7;
-
-      if (nightShift) {
-        if (hours > 7) {
-          toggleAt.setDate(toggleAt.getDate() + 1);
-        }
-        toggleAt.setHours(7);
-      } else {
-        toggleAt.setHours(19);
-      }
-
-      toggleAt.setMinutes(0);
-      toggleAt.setSeconds(0);
-      toggleAt.setMilliseconds(0)
-
-      var delay = toggleAt.getTime() - now.getTime();
-
-      // auto toggle theme mode
-      setTimeout(function() {
-        handleThemeToggle(!nightShift);
-      }, delay);
-
-      return {
-        nightShift: nightShift,
-        toggleAt: toggleAt.getTime()
-      };
-    }
-
-    // Listen the theme toggle event
-    sw.addEventListener('change', function(event) {
-      handleThemeToggle(event.target.checked);
-    });
-
-    if (nightModeOption == 'auto') {
-      var data = autoThemeToggle();
-
-      // Toggle theme by local setting
-      if (data.toggleAt > themeData.autoToggleAt) {
-        themeData.autoToggleAt = data.toggleAt;
-        handleThemeToggle(data.nightShift);
-      } else {
-        handleThemeToggle(themeData.nightShift);
-      }
-    } else if (nightModeOption == 'manual') {
-      handleThemeToggle(themeData.nightShift);
-    } else {
-      var nightShift = themeData.nightShift;
-      if (nightShift === undefined) {
-        nightShift = nightModeOption === 'on';
-      }
-      handleThemeToggle(nightShift);
-    }
-  })();
-</script>
 <div id="click-to-top" class="click-to-top">
   <i class="fa fa-arrow-up"></i>
 </div>
@@ -832,7 +603,6 @@ function googleTranslateElementInit() {
   
 
   
-
 
 
   
@@ -922,7 +692,7 @@ function googleTranslateElementInit() {
 
 <li class="post-item ">
   <h2 class="post-title">
-    <a class="post-link" href="/default/2024/04/26/welcome-to-jekyll.html">
+    <a class="post-link" href="/default/2024/04/26/become-a-radio-amateur.html">
       入坑无线电!<span class="post-badges">
   <span class="post-badge badge-top">TOP</span>
   <span class="post-badge badge-new">NEW</span>
@@ -933,9 +703,9 @@ function googleTranslateElementInit() {
     <span class="post-date"><i class="fa fa-calendar"></i> Apr 26, 2024</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 2 mins</span>
   </div>
   <div class="post-excerpt">
-<a class="post-image" href="/default/2024/04/26/welcome-to-jekyll.html" style="flex: 0 1 38.2%">
+<a class="post-image" href="/default/2024/04/26/become-a-radio-amateur.html" style="flex: 0 1 38.2%">
       <div style="background-image: url(https://s21.ax1x.com/2024/04/27/pkiEHoD.jpg); height: 160px"></div>
-    </a><a class="post-text" href="/default/2024/04/26/welcome-to-jekyll.html">
+    </a><a class="post-text" href="/default/2024/04/26/become-a-radio-amateur.html">
       <p>第一次被无线电吸引还是小时候看的一部电影， 电影名字已经不记得了，主角为了完成任务，找了几个分别擅长各个领域的人合作，其中需要的一个角色就是负责团队的通信。当他们找到一个在车库蓬头垢面正在吃泡面的一个小伙的时候，认为这个小伙不适合，于是小伙带他们来到一个由厢式货车改造的通信车里，眼花... <span class="read_more">Read More</span></p>
     </a>
   </div>
