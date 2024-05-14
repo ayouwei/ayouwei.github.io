@@ -47,17 +47,16 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
+  - .sass-cache/
+  - .jekyll-cache/
   - tmp
   - Gemfile
   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 night_mode: "auto"
 
 # Page default value
