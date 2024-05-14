@@ -50,6 +50,7 @@ exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
+  - tmp
   - Gemfile
   - Gemfile.lock
 #   - node_modules/
