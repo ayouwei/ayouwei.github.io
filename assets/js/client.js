@@ -18,7 +18,7 @@
       height: 100%;
       border: 0;
     }
-  </style>`);let c=i.src.match(/^https:\/\/utteranc\.es|http:\/\/localhost:\d+/)[0],l=`${c}/utterances.html`;i.insertAdjacentHTML("afterend",`<div class="utterances">
+  </style>`);let c="https://utteranc.es",l=`${c}/utterances.html`;i.insertAdjacentHTML("afterend",`<div class="utterances">
     <iframe class="utterances-frame" title="Comments" scrolling="no" src="${l}?${new URLSearchParams(a)}" loading="lazy"></iframe>
   </div>`);let h=i.nextElementSibling;i.parentElement.removeChild(i),addEventListener("message",e=>{if(e.origin!==c)return;let t=e.data;t&&"resize"===t.type&&t.height&&(h.style.height=`${t.height}px`)})})();
 //# sourceMappingURL=client.js.map
