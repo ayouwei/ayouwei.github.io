@@ -31,6 +31,8 @@ permalink: /:year/:month/:day/:title:output_ext
 
 copyright: "BI1MMP (cleft) {currentYear}"
 
+favicon: /assets/images/favicon.png
+
 # Build settings
 #theme: minima
 #theme: jekyll-theme-yat
@@ -79,3 +81,8 @@ header_pages:
   - statistics.html
 
 lang: "zh-CN"
+
+utterances:
+  repo: ayouwei/ayouwei.github.io
+  issue_term: url
+  label: blog
